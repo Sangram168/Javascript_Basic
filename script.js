@@ -21,3 +21,27 @@ let undefine;
 
 let nl = null;
 console.log(nl);
+
+
+// const num = 23;
+// let num1 = num++;
+
+// console.log(num1);
+
+
+// Reference Types
+
+// Object - Multiple variables linked together
+
+let person = {
+    firstName: 'Rohit',
+    age: 23,
+};
+
+console.log(person.age);
+console.log(person['age']);
+
+// Arrays - Data structure used to contain a list of items
+
+let names = ['Aman', 'Rohit', 'Arjun'];
+console.log(names);
