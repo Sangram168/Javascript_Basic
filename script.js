@@ -171,6 +171,33 @@ switch(large){
     case p == q:console.log("equal");
 }
 
+// Loops - Repetition of same task
+// for loops
+
+for(let i = 1; i<=5; i = i+1){
+console.log("Rohit");
+}
+
+// while loop
+
+let i = 0;
+
+while(i<=10){
+
+console.log("Aman");
+i++;
+}
+
+// do while loop
+let j = 1;
+do{
+
+    console.log("Naveen");
+    j++;
+}
+
+while(j<=10);
+
 
 
 
