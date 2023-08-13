@@ -123,6 +123,56 @@ let op2 = 3;
 console.log(op&op2);
 console.log(op|op2);
 
+// controls Statements
+// if else
+
+if(x>45){
+
+    console.log("x is greater")
+}
+else{
+
+    console.log("x is smaller");
+}
+
+// if-elseif-else
+
+if(x>12){
+    console.log("x is larger");
+}
+else if(x==23){
+
+    console.log("x is 23");
+}
+
+else if(x>15){
+    console.log("x is larger than 15")
+
+}
+
+else{
+
+    console.log("xi is smaller");
+}
+
+// Switch case - It is part of javascript conditional statements which are used to perform different
+// actions based on different conditions
+
+let p =45;
+let q = 34;
+let large = p>q;
+switch(large){
+
+    case p<q:console.log("false");
+    break;
+    case p>q:console.log("true");
+    break;
+    default:
+    case p == q:console.log("equal");
+}
+
+
+
 
 
 
