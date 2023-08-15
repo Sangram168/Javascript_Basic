@@ -311,7 +311,44 @@ inc(k);
 
 console.log(k);
 
+// Iterating through objects
+// for-in loop
+// keys are reflected through key variable
+// values are reflected through rectangle[key]
 
+let rectangle2 = {
+    length:87,
+    breath:88,
+};
+
+for(let key in rectangle2){
+
+    console.log(key,rectangle2[key]);
+}
+
+// for-of(It work on iterables eg-arrays and maps)
+let arrays = [1,2,3,45,66];
+for(let key of arrays){
+    console.log(key);
+}
+
+// iterate on objects using for-of loop
+
+// for(let key of Object.keys(rectangle2)){
+ for(let key of Object.entries(rectangle2)){    
+ console.log(key);
+}
+
+// in object any property present or not
+
+if('length' in rectangle2){
+    console.log('Present');
+}
+
+else{
+
+    console.log('Absent');
+}
 
 
 
