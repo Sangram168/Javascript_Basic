@@ -199,6 +199,74 @@ do{
 while(j<=10);
 
 
+// Object - Multiple variable linking with each other which has common real time entity
+// Or It is a real time entity which has properties and function
+
+let rectangle = {
+    length: 1,
+    breath: 2,
+
+    draw: function(){
+
+        console.log("drawing rectangle");
+    }
+};
+
+console.log(rectangle);
+console.log(rectangle.draw());
+
+
+// Object creation - factory function and constructor funcction
+// factory function helps to create object
+
+// function createRectangle(len, bre){
+//     rectangle = {
+//         length:len,
+//         breath:bre,
+//         draw(){
+
+//             console.log("drawing function");
+//         }
+//     };
+
+//     return createRectangle;
+// }
+
+// let rectangleObj1 = createRectangle();
+// let rectangleObj2 = createRectangle(23, 34);
+
+// Constructor function - It initialize/Define the properties and methods
+
+function Rectangle(){
+    this.length = 1;
+    this.breath = 2;
+    this.draw = function(){
+
+        console.log("drawing")
+    }
+}
+
+let rectangleObject = new Rectangle();
+
+// with parameter
+
+// function Rectangle(len, bre){
+//     this.length = len;
+//     this.breath = bre;
+//     this.draw = function(){
+
+//         console.log("drawing")
+//     }
+// }
+
+// let rectangleObject1 = new Rectangle(2, 3);
+
+
+
+
+
+
+
 
 
 
