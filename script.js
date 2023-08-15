@@ -350,6 +350,48 @@ else{
     console.log('Absent');
 }
 
+// Object Cloning
+
+// iteration
+let src = {
+    age:23,
+    Name:'Aman',
+};
+
+let dest = {};
+
+for(let key in src){
+
+    dest[key] = src[key];
+}
+
+console.log(dest);
+
+// Assign
+
+let src2 = {
+    age:45,
+    Name:'Amith',
+};
+
+let dest2 =  Object.assign({}, src2);
+
+    console.log(dest2);
+
+// spread
+
+let src3 = {
+    age: 31,
+    Name: 'Arjun',
+};
+
+let dest3 = {...src3};
+console.log(dest3);
+
+
+
+
+
 
 
 
