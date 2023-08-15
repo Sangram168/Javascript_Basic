@@ -262,7 +262,19 @@ let rectangleObject = new Rectangle();
 // let rectangleObject1 = new Rectangle(2, 3);
 
 
+// Dynamic Nature Of Objects
+function obj(){
+    this.length  = 4,
+    this.breath = 5,
+    this.draw = function(){
 
+        console.log("drawing");
+    }
+}
+
+let Object1 = new obj();
+Object1.color = 'yellow';
+delete Object1.color;
 
 
 
