@@ -277,6 +277,46 @@ Object1.color = 'yellow';
 delete Object1.color;
 
 
+// DataTypes in Js
+
+// Primitive Type
+let a1 = 10;
+let b1 = a1;
+
+a1++;
+
+console.log(a1);
+console.log(b1);
+
+// Reference Datatype
+
+let a11 = {value: 10};
+let b11 = a11;
+
+a11.value++;
+console.log(a11.value);
+console.log(b11.value);
+
+
+
+let k = {
+    value:67
+};
+
+function inc(a){
+    k.value++;
+}
+
+inc(k);
+
+console.log(k);
+
+
+
+
+
+
+
 
 
 
